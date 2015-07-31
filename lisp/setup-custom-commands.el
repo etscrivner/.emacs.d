@@ -4,6 +4,7 @@
 ;;;
 ;;; Sometimes emacs just doesn't have the command you want, so this is where I
 ;;; add them.
+(load "misc")
 
 ;;; Code:
 (defun kill-back-to-indentation (arg)
@@ -15,6 +16,7 @@
 
 ;;; Global keyboard setup
 (global-set-key (kbd "C-c DEL") 'kill-back-to-indentation)
+(global-set-key (kbd "C-c M-z") 'zap-up-to-char)
 
 (provide 'setup-custom-commands)
 ;;; setup-custom-commands.el ends here

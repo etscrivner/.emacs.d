@@ -4,7 +4,7 @@
 ;;; Provides a basic setup for magit
 
 ;;; Code:
-(add-to-list 'load-path "~/.emacs.d/site-lisp/magit")
+(add-to-list 'load-path "~/.emacs.d/site-lisp/magit/lisp")
 (require 'magit)
 
 (global-set-key (kbd "C-c m") 'magit-status)

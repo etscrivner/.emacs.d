@@ -64,8 +64,8 @@
                '("melpa-stable" . "http://stable.melpa.org/packages/") t))
 
 ;; Require our own setups
-(require 'setup-ace-jump-mode)
 (require 'setup-appearance)
+(require 'setup-avy)
 ;;(require 'setup-autocomplete)
 (require 'setup-change-inner)
 (require 'setup-custom-commands)
@@ -83,6 +83,7 @@
 (require 'setup-python)
 (require 'setup-restclient-mode)
 (require 'setup-semantic)
+(require 'setup-slime)
 (require 'setup-smex)
 (require 'setup-snippets)
 (require 'setup-tomatinho)
@@ -95,4 +96,17 @@
  ;; If there is more than one, they won't work right.
  '(custom-safe-themes
    (quote
-    ("8db4b03b9ae654d4a57804286eb3e332725c84d7cdab38463cb6b97d5762ad26" default))))
+    ("77fac25c0276f636e3914636c45f714c2fd688fe1b1d40259be7ce84b8b5ab1e" "193d343658d4b04c3b0f821378a72a80b8d95c242a11327d952155b3f1d04698" "4cc565f169014e69ee061d2092cb0d936ed5501e53bb5d76fee614d66b2d5474" "8db4b03b9ae654d4a57804286eb3e332725c84d7cdab38463cb6b97d5762ad26" default))))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(rainbow-delimiters-depth-1-face ((t (:foreground "deep sky blue"))))
+ '(rainbow-delimiters-depth-2-face ((t (:foreground "deep pink"))))
+ '(rainbow-delimiters-depth-3-face ((t (:foreground "chartreuse"))))
+ '(rainbow-delimiters-depth-4-face ((t (:foreground "sienna1"))))
+ '(rainbow-delimiters-depth-5-face ((t (:foreground "orchid"))))
+ '(rainbow-delimiters-depth-6-face ((t (:foreground "yellow"))))
+ '(rainbow-delimiters-depth-7-face ((t (:foreground "spring green"))))
+ '(rainbow-delimiters-depth-8-face ((t (:foreground "dark orange")))))
