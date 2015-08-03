@@ -74,6 +74,7 @@
 (require 'setup-fill-column-indicator)
 (require 'setup-flycheck)
 (require 'setup-haskell-mode)
+(require 'setup-highlight-indentation)
 (require 'setup-helm)
 (require 'setup-lisp)
 (require 'setup-magit)
