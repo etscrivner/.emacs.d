@@ -1,0 +1,87 @@
+[submodule "site-lisp/avy"]
+	path = site-lisp/avy
+	url = https://github.com/abo-abo/avy.git
+[submodule "site-lisp/change-inner"]
+	path = site-lisp/change-inner
+	url = https://github.com/emacsmirror/change-inner.git
+[submodule "site-lisp/clojure-mode"]
+	path = site-lisp/clojure-mode
+	url = https://github.com/clojure-emacs/clojure-mode.git
+[submodule "site-lisp/dash.el"]
+	path = site-lisp/dash.el
+	url = https://github.com/magnars/dash.el.git
+[submodule "site-lisp/emacs-async"]
+	path = site-lisp/emacs-async
+	url = https://github.com/jwiegley/emacs-async.git
+[submodule "site-lisp/expand-region.el"]
+	path = site-lisp/expand-region.el
+	url = https://github.com/magnars/expand-region.el.git
+[submodule "site-lisp/ggtags"]
+	path = site-lisp/ggtags
+	url = https://github.com/leoliu/ggtags.git
+[submodule "site-lisp/haskell-mode"]
+	path = site-lisp/haskell-mode
+	url = https://github.com/haskell/haskell-mode.git
+[submodule "site-lisp/helm"]
+	path = site-lisp/helm
+	url = https://github.com/emacs-helm/helm.git
+[submodule "site-lisp/magit"]
+	path = site-lisp/magit
+	url = https://github.com/magit/magit.git
+[submodule "site-lisp/markdown-mode"]
+	path = site-lisp/markdown-mode
+	url = https://github.com/defunkt/markdown-mode.git
+[submodule "site-lisp/multiple-cursors.el"]
+	path = site-lisp/multiple-cursors.el
+	url = https://github.com/magnars/multiple-cursors.el.git
+[submodule "site-lisp/perspective-el"]
+	path = site-lisp/perspective-el
+	url = https://github.com/nex3/perspective-el.git
+[submodule "site-lisp/projectile"]
+	path = site-lisp/projectile
+	url = https://github.com/bbatsov/projectile.git
+[submodule "site-lisp/restclient.el"]
+	path = site-lisp/restclient.el
+	url = https://github.com/pashky/restclient.el.git
+[submodule "site-lisp/s.el"]
+	path = site-lisp/s.el
+	url = https://github.com/magnars/s.el.git
+[submodule "site-lisp/slime"]
+	path = site-lisp/slime
+	url = https://github.com/slime/slime.git
+[submodule "site-lisp/smartparens"]
+	path = site-lisp/smartparens
+	url = https://github.com/Fuco1/smartparens.git
+[submodule "site-lisp/smex"]
+	path = site-lisp/smex
+	url = https://github.com/nonsequitur/smex.git
+[submodule "site-lisp/tomatinho"]
+	path = site-lisp/tomatinho
+	url = https://github.com/konr/tomatinho.git
+[submodule "site-lisp/virtualenvwrapper.el"]
+	path = site-lisp/virtualenvwrapper.el
+	url = https://github.com/porterjamesj/virtualenvwrapper.el.git
+[submodule "site-lisp/yaml-mode"]
+	path = site-lisp/yaml-mode
+	url = https://github.com/yoshiki/yaml-mode.git
+[submodule "site-lisp/yasnippet"]
+	path = site-lisp/yasnippet
+	url = https://github.com/capitaomorte/yasnippet.git
+[submodule "themes/ample-theme"]
+	path = themes/ample-theme
+	url = https://github.com/jordonbiondo/ample-theme.git
+[submodule "themes/color-theme-ujelly"]
+	path = themes/color-theme-ujelly
+	url = https://github.com/marktran/color-theme-ujelly.git
+[submodule "themes/cyberpunk-theme.el"]
+	path = themes/cyberpunk-theme.el
+	url = https://github.com/n3mo/cyberpunk-theme.el.git
+[submodule "themes/color-theme-molokai"]
+	path = themes/color-theme-molokai
+	url = https://github.com/alloy-d/color-theme-molokai.git
+[submodule "themes/emacs-waher-theme"]
+	path = themes/emacs-waher-theme
+	url = https://github.com/emacsfodder/emacs-waher-theme.git
+[submodule "site-lisp/rainbow-delimiters"]
+	path = site-lisp/rainbow-delimiters
+	url = https://github.com/Fanael/rainbow-delimiters.git
