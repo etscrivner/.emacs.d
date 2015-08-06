@@ -43,9 +43,6 @@
 [submodule "site-lisp/projectile"]
 	path = site-lisp/projectile
 	url = https://github.com/bbatsov/projectile.git
-[submodule "site-lisp/Pymacs"]
-	path = site-lisp/Pymacs
-	url = https://github.com/pinard/Pymacs.git
 [submodule "site-lisp/restclient.el"]
 	path = site-lisp/restclient.el
 	url = https://github.com/pashky/restclient.el.git
@@ -88,3 +85,6 @@
 [submodule "themes/emacs-waher-theme"]
 	path = themes/emacs-waher-theme
 	url = https://github.com/emacsfodder/emacs-waher-theme.git
+[submodule "site-lisp/rainbow-delimiters"]
+	path = site-lisp/rainbow-delimiters
+	url = https://github.com/Fanael/rainbow-delimiters.git

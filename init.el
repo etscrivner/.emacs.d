@@ -27,10 +27,10 @@
     (add-to-list 'custom-theme-load-path project)))
 
 ;; Load all files in the defuns directory
-(setq defuns-dir (expand-file-name "defuns" dotfiles-dir))
-(dolist (file (directory-files defuns-dir "\\w+"))
-  (when (file-regular-p file)
-    (load file)))
+;; (setq defuns-dir (expand-file-name "defuns" dotfiles-dir))
+;; (dolist (file (directory-files defuns-dir "\\w+"))
+;;   (when (file-regular-p file)
+;;     (load file)))
 
 ;; Save point positions between sessions
 (require 'saveplace)
