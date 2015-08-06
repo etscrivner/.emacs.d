@@ -73,3 +73,18 @@
 [submodule "site-lisp/yasnippet"]
 	path = site-lisp/yasnippet
 	url = https://github.com/capitaomorte/yasnippet.git
+[submodule "themes/ample-theme"]
+	path = themes/ample-theme
+	url = https://github.com/jordonbiondo/ample-theme.git
+[submodule "themes/color-theme-ujelly"]
+	path = themes/color-theme-ujelly
+	url = https://github.com/marktran/color-theme-ujelly.git
+[submodule "themes/cyberpunk-theme.el"]
+	path = themes/cyberpunk-theme.el
+	url = https://github.com/n3mo/cyberpunk-theme.el.git
+[submodule "themes/color-theme-molokai"]
+	path = themes/color-theme-molokai
+	url = https://github.com/alloy-d/color-theme-molokai.git
+[submodule "themes/emacs-waher-theme"]
+	path = themes/emacs-waher-theme
+	url = https://github.com/emacsfodder/emacs-waher-theme.git
