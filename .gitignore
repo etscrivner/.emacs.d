@@ -1,0 +1,7 @@
+*~
+*.elc
+elpa
+.cask
+.places
+auto-save-list
+projectile-bookmarks*
