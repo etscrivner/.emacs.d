@@ -11,7 +11,7 @@
 ;; Set the font size
 ;; (set-face-attribute 'default nil :height 170)
 ;; (set-face-attribute 'default nil :height 180 :font "ProggyCleanTT")
-;; (set-face-attribute 'default nil :height 150 :font "Inconsolata-g")
+(set-face-attribute 'default nil :height 150 :font "Inconsolata-g")
 
 ;;; Line numbers everywhere
 (global-linum-mode t)
