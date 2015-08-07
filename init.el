@@ -90,6 +90,7 @@
 (require 'setup-snippets)
 (require 'setup-tomatinho)
 (require 'setup-yaml)
+(require 'setup-yasnippet)
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.

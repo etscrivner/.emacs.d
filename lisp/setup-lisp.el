@@ -46,7 +46,6 @@
   (setq prettify-symbols-alist
         '(
           ("lambda" . 955)
-          ("map" . 8614)
           )))
 
 (add-hook 'scheme-mode-hook 'add-pretty-lisp-symbols)
