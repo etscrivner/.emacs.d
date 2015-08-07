@@ -39,6 +39,7 @@
 
 ;; Require our own sane defaults
 (require 'sane-defaults)
+(require 'dash)
 
 ;; Emacs server
 (require 'server)
