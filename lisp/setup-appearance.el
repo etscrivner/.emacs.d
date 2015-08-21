@@ -5,7 +5,8 @@
 ;; (load-theme 'zerodark t)
 ;; (load-theme 'zenburn t)
 ;; (load-theme 'ujelly t)
-(load-theme 'ample t)
+;; (load-theme 'ample t)
+(load-theme 'spacegray t)
 ;; (load-theme 'cyberpunk t)
 
 ;; Set the font size
@@ -17,8 +18,15 @@
 ;;; Line numbers everywhere
 (global-linum-mode t)
 
+;; Add spacing on either side of line number
+(defadvice linum-update-window (around linum-dynamic activate)
+  (let* ((w (length (number-to-string
+                     (count-lines (point-min) (point-max)))))
+         (linum-format (concat " %" (number-to-string w) "d ")))
+    ad-do-it))
+
 ;;; Show fringes
-(fringe-mode 10)
+(fringe-mode -1)
 
 ;;; Indicate file sizes
 (size-indication-mode t)
