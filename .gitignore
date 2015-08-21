@@ -6,3 +6,8 @@ elpa
 auto-save-list
 projectile-bookmarks*
 semanticdb
+eshell
+tramp
+persp-confs
+session.*
+smex-items
