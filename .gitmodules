@@ -97,3 +97,9 @@
 [submodule "site-lisp/Highlight-Indentation-for-Emacs"]
 	path = site-lisp/Highlight-Indentation-for-Emacs
 	url = git@github.com:antonj/Highlight-Indentation-for-Emacs.git
+[submodule "themes/emacs-spacegray-theme"]
+	path = themes/emacs-spacegray-theme
+	url = git@github.com:bruce/emacs-spacegray-theme.git
+[submodule "site-lisp/hlinum-mode"]
+	path = site-lisp/hlinum-mode
+	url = git@github.com:tom-tan/hlinum-mode.git

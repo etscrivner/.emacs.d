@@ -93,5 +93,10 @@
 ;; Replace rectangle
 (global-set-key (kbd "C-c c r") 'replace-rectangle)
 
+;; Copy whole line
+(global-set-key (kbd "C-c C-c") (kbd "C-a C-SPC C-e M-w C-a"))
+;; Duplicate whole line
+(global-set-key (kbd "C-c C-d") (kbd "C-a C-SPC C-n M-w C-y"))
+
 (provide 'sane-defaults)
 ;;; sane-defaults.el ends here

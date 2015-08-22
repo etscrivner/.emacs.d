@@ -3,7 +3,6 @@
 ;;; Commentary:
 ;;; 
 ;;; General configurations to make working with Lisp nicer
-(require 'smartparens)
 (require 'smartparens-config)
 (require 'rainbow-delimiters)
 
