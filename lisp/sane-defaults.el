@@ -75,7 +75,7 @@
 (display-time)
 
 ;; Show matching parens
-(show-paren-mode -1)
+(show-paren-mode 1)
 
 ;; Interactivate all the things
 (ido-mode 1)

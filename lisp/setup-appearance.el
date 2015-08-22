@@ -18,6 +18,14 @@
 ;;; Line numbers everywhere
 (global-linum-mode t)
 
+;; Always highlight the current line
+(global-hl-line-mode t)
+(set-face-background 'hl-line "#3e4446")
+
+;; Highlight the current line number
+(require 'hlinum)
+(hlinum-activate)
+
 ;; Add spacing on either side of line number
 (defadvice linum-update-window (around linum-dynamic activate)
   (let* ((w (length (number-to-string
