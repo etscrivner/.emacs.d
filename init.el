@@ -81,6 +81,7 @@
 (require 'setup-magit)
 (require 'setup-markdown-mode)
 (require 'setup-perspective)
+(require 'setup-proof-general)
 (require 'setup-projectile)
 (require 'setup-python)
 (require 'setup-restclient-mode)
