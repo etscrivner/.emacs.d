@@ -1,13 +1,14 @@
 ;; Set the visual theme
-;; (load-theme 'wombat)
+(load-theme 'wombat t)
 ;; (load-theme 'manoj-dark)
 ;; (load-theme 'solarized)
 ;; (load-theme 'zerodark t)
 ;; (load-theme 'zenburn t)
 ;; (load-theme 'ujelly t)
 ;; (load-theme 'ample t)
-(load-theme 'spacegray t)
+;; (load-theme 'spacegray t)
 ;; (load-theme 'cyberpunk t)
+;; (load-theme 'waher t)
 
 ;; Set the font size
 ;; (set-face-attribute 'default nil :height 170)
@@ -20,7 +21,9 @@
 
 ;; Always highlight the current line
 (global-hl-line-mode t)
-(set-face-background 'hl-line "#3e4446")
+(set-face-underline-p 'hl-line nil)
+(set-face-background 'hl-line "#2B3031")
+
 
 ;; Highlight the current line number
 (require 'hlinum)

@@ -103,3 +103,6 @@
 [submodule "site-lisp/hlinum-mode"]
 	path = site-lisp/hlinum-mode
 	url = git@github.com:tom-tan/hlinum-mode.git
+[submodule "themes/monokai-emacs"]
+	path = themes/monokai-emacs
+	url = git@github.com:oneKelvinSmith/monokai-emacs.git
