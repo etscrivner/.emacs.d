@@ -118,3 +118,6 @@
 [submodule "site-lisp/elm-mode"]
 	path = site-lisp/elm-mode
 	url = git@github.com:jcollard/elm-mode.git
+[submodule "site-lisp/company-mode"]
+	path = site-lisp/company-mode
+	url = git@github.com:company-mode/company-mode.git

@@ -6,6 +6,7 @@
 (require 'elm-mode)
 
 ;;; Code:
+(add-hook 'elm-mode-hook #'elm-oracle-setup-completion)
 
 (provide 'setup-elm)
 ;;; setup-elm.el ends here
