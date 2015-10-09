@@ -3,13 +3,11 @@
 ;;; Commentary:
 ;;; 
 ;;; General configurations to make working with Lisp nicer
-(require 'smartparens-config)
 (require 'rainbow-delimiters)
 
 ;;; Code:
 
-;; Use smartparens everywhere we can
-(smartparens-global-mode 't)
+
 
 ;;; Use rainbow parens
 (add-hook 'lisp-mode-hook #'rainbow-delimiters-mode)
@@ -30,12 +28,6 @@
  '(rainbow-delimiters-depth-6-face ((t (:foreground "yellow"))))
  '(rainbow-delimiters-depth-7-face ((t (:foreground "spring green"))))
  '(rainbow-delimiters-depth-8-face ((t (:foreground "dark orange")))))
-
-;;; Slurping s-exps
-(define-key smartparens-mode-map (kbd "C-<right>") 'sp-forward-slurp-sexp)
-(define-key smartparens-mode-map (kbd "C-<left>") 'sp-forward-barf-sexp)
-(define-key smartparens-mode-map (kbd "<C-s-left>") 'sp-backward-slurp-sexp)
-(define-key smartparens-mode-map (kbd "<C-s-right>") 'sp-backward-barf-sexp)
 
 ;; Prettified symbols
 (global-prettify-symbols-mode 1)
